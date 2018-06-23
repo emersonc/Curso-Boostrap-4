@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale = 1, shrink-to-fit=no">
+	<title>Formulários</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<style type="text/css">
+		.row{
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<form>
+					<div class="form-group">
+						<label for="InputEmail1">Email</label>
+						<input type="email" class="form-control" name="InputEmail1" id="InputEmail1"
+						placeholder="Insira seu email" aria-describedby="emailHelp">
+						<small id="emailHelp" class="form-text text-muted">Ex.: seuemail@seudominio.com.br</small>
+					</div>
+					<div class="form-group">
+						<label for="InputSenha1">Senha</label>
+						<input type="password" class="form-control" name="InputSenha1" id="InputSenha1"
+						placeholder="Insira sua senha" readonly>
+					</div>
+					<div class="form-check">
+						<label class="form-check-label">
+							<input type="checkbox" class="form-check-input">
+							Manter Conectado
+						</label>
+					</div>
+					<button class="btn btn-primary" type="submit">Entar</button>
+				</form>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-6">
+				<input type="text" class="form-control form-control-lg">
+				<input type="text" class="form-control">
+				<input type="text" class="form-control form-control-sm">
+			</div>		
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<form>
+					<div class="form-group row">
+						<label for="InputEmail2" class="col-sm-2 col-form-label">Email</label>
+						<div class="col-sm-10">
+							<input type="email" class="form-control-plaintext" name="InputEmail2" id="InputEmail1"
+							placeholder="Insira seu email" value="meuemail@meudominio.com.br" readonly>
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="InputSenha2" class="col-sm-2 col-form-label">Senha</label>
+						<div class="col-sm-10">
+							<input type="password" class="form-control" name="InputSenha2" id="InputSenha2"
+							placeholder="Insira sua senha">
+						</div>		
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<form>
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="nome" class="col-form-label">Nome:</label>
+							<input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu Nome">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="sobrenome" class="col-form-label">Sobrenome:</label>
+							<input type="text" class="form-control" id="sobrenome" name="sobrenome" placeholder="Digite seu Sobrenome">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="end" class="col-form-label">Endereço:</label>
+						<input type="text" class="form-control" id="end" name="end" placeholder="Digite seu Endereço">
+					</div>
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="cidade" class="col-form-label">Cidade:</label>
+							<input type="text" class="form-control" id="cidade" name="cidade" placeholder="Digite sua Cidade">
+						</div>
+						<div class="form-group col-md-4">
+							<label for="estado" class="col-form-label">Estado:</label>
+							<input type="text" class="form-control" id="estado" name="estado" placeholder="Digite seu Estado">
+						</div>
+						<div class="form-group col-md-2">
+							<label for="cep" class="col-form-label">CEP:</label>
+							<input type="text" class="form-control" id="cep" name="cep" placeholder="Digite seu CEP">
+						</div>
+					</div>
+					<button class="btn btn-primary">Cadastrar</button>
+				</form>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<form class="form-inline">
+					<label class="sr-only" for="nameInline">Nome</label>
+					<input type="text" id="nameInline" class="form-control mb-2 mr-2" placeholder="Digite seu Nome">
+
+					<label class="sr-only" for="senhaInline">Senha</label>
+					<input type="text" id="senhaInline" class="form-control mb-2 mr-2" placeholder="Digite sua Senha">
+					<button class="btn btn-primary">Entrar</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

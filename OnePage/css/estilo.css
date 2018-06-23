@@ -1,0 +1,141 @@
+/* Configurações do topo */
+.bg-topo{
+	background-color: #68627a;
+}
+
+.btn-orcamento{
+	border: 2px solid #fff;
+	background: none;
+	position: relative;
+	color: #fff;
+	z-index: 1;
+	border-radius: 30px;
+	height: 100%;
+}
+
+.btn-orcamento:hover{
+	color: #68627a;
+	background: #fff;
+	border-color: #fff;
+	transition: all .50s ease-in-out;
+	-moz-transition: all .50s ease-in-out;
+	-webkit-transition: all .50s ease-in-out;
+}
+
+/* Seção de Serviços */
+
+.bg-servicos{
+	background: linear-gradient(131.26deg,#312b45 30%, #ff3859 100%);
+}
+
+/* Seção de Parceiros */
+.bg-parceiros{
+	background-color: #f2f0f7;
+}
+
+.padding-parceiros{
+	padding: 2px !important;
+}
+
+/*Seção Parallax */
+.bg-parallax{
+	background: url(../img/bg.jpg) fixed;
+	position: relative;
+}
+
+.fatos{
+	text-align: center;
+	color: #fff;
+}
+
+.fatos .icon i{
+	font-size: 50px;
+	color: #fff;
+}
+
+.fatos h3{
+	font-size: 35px;
+	color: #fff;
+	margin-bottom: 5px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+.fatos h4{
+	font-size: 20px;
+	font-weight: 400;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+/*Configurações da Seção de Cursos */
+.tabela-preco{
+	padding: 0 0 40px 0;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid #f1f1f1;
+}
+
+.tabela-preco .preco-detalhe h2{
+	font-size: 26px;
+	font-weight: 700;
+	color: #333;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	background-color: #f1f1f1;
+	padding: 30px 0;
+}
+
+.tabela-preco .preco-detalhe span{
+	display: block;
+	font-size: 48px;
+	font-weight: 400;
+	color: #4c465f;
+	margin-bottom: 20px;
+}
+
+.tabela-preco .preco-detalhe ul{
+	margin-bottom: 35px;
+	padding: 0 !important;
+}
+
+.tabela-preco .preco-detalhe ul li{
+	padding: 10px;
+	font-size: 15px;
+	border-bottom: 1px dotted #f1f1f1;
+	list-style: none;
+}
+
+.btn-preco{
+	border: 1px solid #ff3859;
+	background-color: #ff3859;
+	position: relative;
+	color: #fff;
+	z-index: 1;
+	border-radius: 30px;
+}
+
+.btn-preco:hover{
+	color: #fff;
+	background: #4c465f;
+	border-color: #4c465f;
+	transition: all .50s ease-in-out;
+	-moz-transition: all .50s ease-in-out;
+	-webkit-transition: all .50s ease-in-out;
+}
+
+/* Configurações Gerais */
+.underline{
+	content: '';
+	border-top: 2px solid #ff3859;
+	width: 70px;
+	display: block;
+	margin-bottom: 8px;
+	margin: 0 auto;
+}
+
+.sombra:hover{
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.1)
+}
