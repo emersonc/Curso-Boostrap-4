@@ -126,6 +126,35 @@
 	-webkit-transition: all .50s ease-in-out;
 }
 
+/* Rodapé */
+.bg-rodape1{
+	background-color: #312b45;
+}
+
+.bg-rodape1 ul{
+	-webkit-padding-start: 0;
+}
+
+.bg-rodape1 ul li {
+	list-style: none;
+}
+
+.bg-card-rodape{
+	background-color: #ff3859;
+}
+
+.icon-banner-rodape{
+	color: #c42841;
+}
+
+.bg-rodape2{
+	background-color: #4c465f;
+}
+
+a.icone-social{
+	color: #b3aec2;
+}
+
 /* Configurações Gerais */
 .underline{
 	content: '';
@@ -134,6 +163,14 @@
 	display: block;
 	margin-bottom: 8px;
 	margin: 0 auto;
+}
+
+.underline-footer{
+	content: '';
+	border-top: 2px solid #ff3859;
+	width: 70px;
+	display: block;
+	margin-top: 5px;
 }
 
 .sombra:hover{
